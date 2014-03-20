@@ -1,0 +1,214 @@
+body .navbar-default {
+  margin: 0;
+  background: #fff;
+  border-bottom: 10px solid #ccc;
+}
+body nav .logo {
+  margin: 0;
+  overflow: hidden;
+  height: 6em;
+}
+body nav .logo img {
+  margin: 0 2em;
+  width: 16em;
+}
+body nav .menu li .nav {
+  color: #666;
+  border-radius: initial;
+  font-size: 1.2em;
+  font-family: Arial;
+  margin: 0em 0.5em 0em 0.3em;
+  padding: 2.5em 1em;
+  -webkit-transition: background 0.5s ease;
+  -moz-transition: background 0.5s ease;
+  -o-transition: background 0.5s ease;
+  transition: background 0.5s ease;
+}
+body nav .menu li .nav:hover {
+  background: #eee;
+}
+body .padre {
+  background: #00a5a1;
+}
+body .padre .fondo {
+  background: #00a5a1;
+  height: 33em;
+}
+body .padre .fondo .texto {
+  height: 30em;
+}
+body .padre .fondo .texto .texto2 {
+  margin-top: 2.5em;
+}
+body .padre .fondo .texto .texto2 h2 {
+  color: #fff;
+  font-family: arial;
+}
+body .padre .fondo .texto .texto2 p {
+  color: #caffff;
+  font-size: 1.3em;
+  margin: 2em 0;
+}
+body .padre .fondo .texto .personas img {
+  height: 33em;
+  width: 91%;
+  margin-left: 5.6em;
+}
+body .fondo2 {
+  background: #333;
+  height: 10em;
+}
+body .fondo2 .cuadros .cuadros2 ul {
+  display: -webkit-inline-box;
+  padding: 0;
+  list-style-type: none;
+}
+body .fondo2 .cuadros .cuadros2 ul .gris {
+  background: #333 !important;
+}
+body .fondo2 .cuadros .cuadros2 ul .rosado {
+  background: #0b4c7e !important;
+}
+body .fondo2 .cuadros .cuadros2 ul .naranjo {
+  background: #fa822b !important;
+}
+body .fondo2 .cuadros .cuadros2 ul .amarillo {
+  background: #ffcd52 !important;
+}
+body .fondo2 .cuadros .cuadros2 ul .cuadro {
+  background: #6a0731;
+  height: 10em;
+  width: 10.1em;
+}
+body .fondo2 .cuadros .cuadros2 ul .cuadro .gris {
+  background: #666 !important;
+}
+body .fondo2 .cuadros .cuadros2 ul .cuadro .rosado {
+  background: #0060a7 !important;
+}
+body .fondo2 .cuadros .cuadros2 ul .cuadro .naranjo {
+  background: #ffaa57 !important;
+}
+body .fondo2 .cuadros .cuadros2 ul .cuadro .amarillo {
+  background: #ffd76c !important;
+}
+body .fondo2 .cuadros .cuadros2 ul .cuadro .circulo {
+  background: #850a39;
+  border-radius: 50%;
+  display: inline-block;
+  margin-left: 2em;
+  margin-top: 1em;
+  height: 6em;
+  width: 6em;
+}
+body .fondo2 .cuadros .cuadros2 ul .cuadro a {
+  color: #fff;
+  font-size: 1.2em;
+  font-weight: bold;
+  text-decoration: none;
+  text-align: center;
+  padding: 0 0 0 2em;
+  position: relative;
+  bottom: 2em;
+}
+body .fondo2 .cuadros .cuadros2 ul .cuadro i {
+  color: #fff;
+  font-size: 33px;
+  top: -1.9em;
+  left: 1.6em;
+}
+body .fondo3 {
+  background: #eee;
+  height: 60em;
+}
+body .fondo3 .letras .negra {
+  color: #323232;
+  margin-top: 2em;
+  font-size: 35px;
+}
+body .fondo3 .letras .images .u {
+  width: 40%;
+  margin-top: 2em;
+  margin-left: 10em;
+}
+body .fondo3 .letras .images .d {
+  width: 32%;
+  margin-left: 4em;
+}
+body .fondo3 .letras .parrafo p {
+  color: #323232;
+  font-size: 2em;
+  text-align: center;
+  margin-top: 4em;
+}
+body .fondo4 {
+  background: #fff;
+  height: 60em;
+}
+body .fondo4 .contenedor .negra2 {
+  margin: 2em 0 1.7em 0;
+}
+body .fondo4 .contenedor .imagen img {
+  position: inline-block;
+  margin-left: 8em;
+  width: 73%;
+}
+body .fondo5 {
+  background: #f7f7f7;
+  border-top: 1px solid #b0b0b0;
+  height: 7em;
+}
+body .fondo5 .detalles1 {
+  color: #323232;
+  font-size: 1.3em;
+  list-style-type: none;
+  margin-top: 2em;
+  padding: 0;
+}
+body .fondo5 .detalles1 li {
+  float: left;
+}
+body .fondo5 .detalles1 .verde {
+  color: #00a5a1;
+  font-weight: bold;
+  margin-left: 1em;
+  margin-right: 0.4em;
+}
+body .fondo5 .detalles1 .icono {
+  color: #626161;
+  margin-left: 3em;
+  margin-right: 0.5em;
+}
+@media screen and (max-width:1199px) {
+  body nav .logo {
+    padding: 0;
+  }
+  body nav .logo img {
+    margin: 1.2em 1em 0 1em;
+    width: 10em;
+  }
+  body nav .menus .menu li .nav {
+    margin: 0;
+  }
+  body .padre .fondo {
+    background: #f00;
+  }
+  body .fondo3 {
+    background: #00f;
+    height: 50em;
+  }
+  body .fondo3 .letras .images .u {
+    margin-left: 1.5em;
+    margin-right: 0;
+  }
+  body .fondo3 .letras .parrafo p {
+    margin-top: 2.5em;
+  }
+  body .fondo4 {
+    background: #f00;
+    height: 54em;
+  }
+  body .fondo4 .contenedor .imagen img {
+    margin-left: 3em;
+  }
+}
