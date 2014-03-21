@@ -32,10 +32,7 @@ body .padre {
 }
 body .padre .fondo {
   background: #00a5a1;
-  height: 33em;
-}
-body .padre .fondo .texto {
-  height: 30em;
+  height: 100%;
 }
 body .padre .fondo .texto .texto2 {
   margin-top: 2.5em;
@@ -50,7 +47,6 @@ body .padre .fondo .texto .texto2 p {
   margin: 2em 0;
 }
 body .padre .fondo .texto .personas img {
-  height: 33em;
   width: 91%;
   margin-left: 5.6em;
 }
@@ -180,6 +176,10 @@ body .fondo5 .detalles1 .icono {
   margin-right: 0.5em;
 }
 @media screen and (max-width:1199px) {
+  body .container {
+    margin: 0;
+    width: 100%;
+  }
   body nav .logo {
     padding: 0;
   }
@@ -190,8 +190,12 @@ body .fondo5 .detalles1 .icono {
   body nav .menus .menu li .nav {
     margin: 0;
   }
-  body .padre .fondo {
-    background: #f00;
+  body .padre .fondo .texto .personas {
+    padding: 0;
+  }
+  body .padre .fondo .texto .personas img {
+    width: 100%;
+    margin: 0;
   }
   body .fondo3 {
     background: #00f;
@@ -205,7 +209,6 @@ body .fondo5 .detalles1 .icono {
     margin-top: 2.5em;
   }
   body .fondo4 {
-    background: #f00;
     height: 54em;
   }
   body .fondo4 .contenedor .imagen img {

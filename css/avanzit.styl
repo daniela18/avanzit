@@ -31,9 +31,8 @@ body
 		background #00a5a1
 		.fondo
 			background #00a5a1                                   
-			height 33em
+			height 100%
 			.texto
-				height 30em
 				.texto2
 					margin-top 2.5em
 					h2
@@ -45,9 +44,8 @@ body
 						margin 2em 0
 				.personas
 					img
-						height 33em
 						width 91%
-						margin-left 5.6em 
+						margin-left 5.6em
 	.fondo2
 		background #333
 		height 10em
@@ -167,6 +165,9 @@ body
 @media screen and (max-width:1199px)
 
 	body
+		.container
+			margin 0
+			width 100%
 		nav
 			.logo
 				padding 0
@@ -180,7 +181,12 @@ body
 							margin 0
 		.padre
 			.fondo
-				background red
+				.texto
+					.personas
+						padding 0
+						img
+							width 100%
+							margin 0
 
 		.fondo3
 			background blue
@@ -195,7 +201,6 @@ body
 						margin-top 2.5em
 					
 		.fondo4
-			background red
 			height 54em
 			.contenedor
 				.imagen
