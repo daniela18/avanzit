@@ -55,7 +55,7 @@ body
 					display: -webkit-inline-box
 					padding 0
 					list-style-type: none
-
+					width 100%
 					.gris
 						background #333 !important
 					.rosado 
@@ -92,18 +92,17 @@ body
 							font-weight bold
 							text-decoration none
 							text-align center
-							padding 0 0 0 2em
+							padding 0 0 0 1.9em
 							position relative
-							bottom 2em
+							top 0.5em
 						i 
 							color white
 							font-size 33px
-							top -1.9em
-							left 1.6em
+							top 0.8em
+							left 0.8em
 					
 	.fondo3
 		background #EEEEEE
-		height 60em
 		.letras
 			.negra
 				color #323232
@@ -129,7 +128,6 @@ body
 
 	.fondo4
 		background white
-		height 60em
 		.contenedor
 			.negra2
 				margin 2em 0 1.7em 0
@@ -161,12 +159,18 @@ body
 				color #626161
 				margin-left 3em
 				margin-right 0.5em
-
-@media screen and (max-width:1199px)
-
+	
+@media (max-width: 1000px) 
 	body
+		h1
+			padding 0 1em
+		h2
+			padding 0 1em
+		p
+			padding 0 1em
 		.container
 			margin 0
+			padding 0
 			width 100%
 		nav
 			.logo
@@ -187,10 +191,18 @@ body
 						img
 							width 100%
 							margin 0
-
+		.fondo2
+			height 8em
+			.cuadros
+				.cuadros2
+					ul
+						.cuadro
+							height 8em
+							width 25%
+							a
+								top 1em
+								padding 0
 		.fondo3
-			background blue
-			height 50em
 			.letras
 				.images
 					.u
@@ -201,11 +213,51 @@ body
 						margin-top 2.5em
 					
 		.fondo4
-			height 54em
 			.contenedor
 				.imagen
 					img
 						margin-left	3em
-	
 
+@media (max-width:795px) 
+	body
+		h1
+			font-size 28px !important
+		h2
+			font-size 28px
+		.fondo2
+			height 10em
+			.cuadros
+				.cuadros2
+					ul
+						.cuadro
+							height 10em
+							a
+								top 1em
+								padding 0 1em
+							.circulo
+								margin-left 3.8em
+		.fondo3
+			background red
+
+@media (max-width:600px) 
+	body
+		h1
+			font-size 20px !important
+		h2
+			font-size 20px
+		.fondo2
+			height 10em
+			.cuadros
+				.cuadros2
+					ul
+						.cuadro
+							height 10em
+							.circulo
+								margin-left 0.5em
+		.texto2
+			p
+				padding 0 1em
+		.parrafo
+			p
+				padding 0 0.7em
 			
